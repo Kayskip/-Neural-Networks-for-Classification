@@ -1,8 +1,7 @@
--------------------------------------------------------
+
 Open command line in bpnn directory:
-	run: ./nntrain iris.net iris.pat
-	run: ./nntest iris.net iris.pat weights.dat
--------------------------------------------------------
+run: ./nntrain iris.net iris.pat and ./nntest iris.net iris.pat weights.dat
+
 
 
 
