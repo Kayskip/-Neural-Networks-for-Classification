@@ -1,0 +1,519 @@
+Backprop Neural Network Simulator
+ Version 5.0
+ (C) 2000 Mengjie Zhang, VUW
+ mengjie@mcs.vuw.ac.nz
+LR = 0.050000, M = 0.000000, CE = 0.040000, R = 0.500000 PERCENT = 101.000000
+Trying to allocate 1064 bytes during network creation... Successfull
+epoch = 1, mse = 0.250, Percentage = 27/75 = 36.00%
+epoch = 2, mse = 0.234, Percentage = 29/75 = 38.67%
+epoch = 3, mse = 0.228, Percentage = 28/75 = 37.33%
+epoch = 4, mse = 0.224, Percentage = 27/75 = 36.00%
+epoch = 5, mse = 0.223, Percentage = 27/75 = 36.00%
+epoch = 6, mse = 0.222, Percentage = 27/75 = 36.00%
+epoch = 7, mse = 0.221, Percentage = 28/75 = 37.33%
+epoch = 8, mse = 0.221, Percentage = 28/75 = 37.33%
+epoch = 9, mse = 0.221, Percentage = 28/75 = 37.33%
+epoch = 10, mse = 0.220, Percentage = 28/75 = 37.33%
+epoch = 11, mse = 0.220, Percentage = 30/75 = 40.00%
+epoch = 12, mse = 0.220, Percentage = 30/75 = 40.00%
+epoch = 13, mse = 0.219, Percentage = 30/75 = 40.00%
+epoch = 14, mse = 0.219, Percentage = 31/75 = 41.33%
+epoch = 15, mse = 0.218, Percentage = 33/75 = 44.00%
+epoch = 16, mse = 0.217, Percentage = 34/75 = 45.33%
+epoch = 17, mse = 0.217, Percentage = 35/75 = 46.67%
+epoch = 18, mse = 0.216, Percentage = 36/75 = 48.00%
+epoch = 19, mse = 0.215, Percentage = 37/75 = 49.33%
+epoch = 20, mse = 0.213, Percentage = 38/75 = 50.67%
+epoch = 21, mse = 0.212, Percentage = 40/75 = 53.33%
+epoch = 22, mse = 0.210, Percentage = 43/75 = 57.33%
+epoch = 23, mse = 0.209, Percentage = 44/75 = 58.67%
+epoch = 24, mse = 0.207, Percentage = 44/75 = 58.67%
+epoch = 25, mse = 0.204, Percentage = 45/75 = 60.00%
+epoch = 26, mse = 0.202, Percentage = 46/75 = 61.33%
+epoch = 27, mse = 0.199, Percentage = 47/75 = 62.67%
+epoch = 28, mse = 0.197, Percentage = 50/75 = 66.67%
+epoch = 29, mse = 0.194, Percentage = 50/75 = 66.67%
+epoch = 30, mse = 0.191, Percentage = 52/75 = 69.33%
+epoch = 31, mse = 0.187, Percentage = 52/75 = 69.33%
+epoch = 32, mse = 0.184, Percentage = 54/75 = 72.00%
+epoch = 33, mse = 0.181, Percentage = 55/75 = 73.33%
+epoch = 34, mse = 0.177, Percentage = 56/75 = 74.67%
+epoch = 35, mse = 0.174, Percentage = 56/75 = 74.67%
+epoch = 36, mse = 0.171, Percentage = 55/75 = 73.33%
+epoch = 37, mse = 0.168, Percentage = 55/75 = 73.33%
+epoch = 38, mse = 0.165, Percentage = 55/75 = 73.33%
+epoch = 39, mse = 0.162, Percentage = 55/75 = 73.33%
+epoch = 40, mse = 0.159, Percentage = 54/75 = 72.00%
+epoch = 41, mse = 0.156, Percentage = 55/75 = 73.33%
+epoch = 42, mse = 0.153, Percentage = 54/75 = 72.00%
+epoch = 43, mse = 0.151, Percentage = 54/75 = 72.00%
+epoch = 44, mse = 0.149, Percentage = 54/75 = 72.00%
+epoch = 45, mse = 0.146, Percentage = 54/75 = 72.00%
+epoch = 46, mse = 0.144, Percentage = 53/75 = 70.67%
+epoch = 47, mse = 0.142, Percentage = 53/75 = 70.67%
+epoch = 48, mse = 0.141, Percentage = 52/75 = 69.33%
+epoch = 49, mse = 0.139, Percentage = 52/75 = 69.33%
+epoch = 50, mse = 0.137, Percentage = 52/75 = 69.33%
+epoch = 51, mse = 0.136, Percentage = 52/75 = 69.33%
+epoch = 52, mse = 0.135, Percentage = 53/75 = 70.67%
+epoch = 53, mse = 0.133, Percentage = 53/75 = 70.67%
+epoch = 54, mse = 0.132, Percentage = 53/75 = 70.67%
+epoch = 55, mse = 0.131, Percentage = 54/75 = 72.00%
+epoch = 56, mse = 0.130, Percentage = 54/75 = 72.00%
+epoch = 57, mse = 0.129, Percentage = 54/75 = 72.00%
+epoch = 58, mse = 0.128, Percentage = 54/75 = 72.00%
+epoch = 59, mse = 0.127, Percentage = 55/75 = 73.33%
+epoch = 60, mse = 0.126, Percentage = 55/75 = 73.33%
+epoch = 61, mse = 0.125, Percentage = 55/75 = 73.33%
+epoch = 62, mse = 0.125, Percentage = 55/75 = 73.33%
+epoch = 63, mse = 0.124, Percentage = 56/75 = 74.67%
+epoch = 64, mse = 0.123, Percentage = 56/75 = 74.67%
+epoch = 65, mse = 0.122, Percentage = 56/75 = 74.67%
+epoch = 66, mse = 0.122, Percentage = 56/75 = 74.67%
+epoch = 67, mse = 0.121, Percentage = 56/75 = 74.67%
+epoch = 68, mse = 0.121, Percentage = 56/75 = 74.67%
+epoch = 69, mse = 0.120, Percentage = 57/75 = 76.00%
+epoch = 70, mse = 0.120, Percentage = 57/75 = 76.00%
+epoch = 71, mse = 0.119, Percentage = 58/75 = 77.33%
+epoch = 72, mse = 0.118, Percentage = 58/75 = 77.33%
+epoch = 73, mse = 0.118, Percentage = 59/75 = 78.67%
+epoch = 74, mse = 0.117, Percentage = 58/75 = 77.33%
+epoch = 75, mse = 0.117, Percentage = 58/75 = 77.33%
+epoch = 76, mse = 0.116, Percentage = 59/75 = 78.67%
+epoch = 77, mse = 0.116, Percentage = 60/75 = 80.00%
+epoch = 78, mse = 0.115, Percentage = 61/75 = 81.33%
+epoch = 79, mse = 0.115, Percentage = 62/75 = 82.67%
+epoch = 80, mse = 0.114, Percentage = 62/75 = 82.67%
+epoch = 81, mse = 0.114, Percentage = 64/75 = 85.33%
+epoch = 82, mse = 0.113, Percentage = 64/75 = 85.33%
+epoch = 83, mse = 0.113, Percentage = 64/75 = 85.33%
+epoch = 84, mse = 0.112, Percentage = 64/75 = 85.33%
+epoch = 85, mse = 0.112, Percentage = 64/75 = 85.33%
+epoch = 86, mse = 0.111, Percentage = 64/75 = 85.33%
+epoch = 87, mse = 0.111, Percentage = 65/75 = 86.67%
+epoch = 88, mse = 0.110, Percentage = 65/75 = 86.67%
+epoch = 89, mse = 0.110, Percentage = 65/75 = 86.67%
+epoch = 90, mse = 0.109, Percentage = 65/75 = 86.67%
+epoch = 91, mse = 0.109, Percentage = 66/75 = 88.00%
+epoch = 92, mse = 0.108, Percentage = 66/75 = 88.00%
+epoch = 93, mse = 0.107, Percentage = 66/75 = 88.00%
+epoch = 94, mse = 0.107, Percentage = 66/75 = 88.00%
+epoch = 95, mse = 0.106, Percentage = 66/75 = 88.00%
+epoch = 96, mse = 0.106, Percentage = 66/75 = 88.00%
+epoch = 97, mse = 0.105, Percentage = 66/75 = 88.00%
+epoch = 98, mse = 0.104, Percentage = 66/75 = 88.00%
+epoch = 99, mse = 0.104, Percentage = 66/75 = 88.00%
+epoch = 100, mse = 0.103, Percentage = 66/75 = 88.00%
+epoch = 101, mse = 0.103, Percentage = 66/75 = 88.00%
+epoch = 102, mse = 0.102, Percentage = 66/75 = 88.00%
+epoch = 103, mse = 0.101, Percentage = 66/75 = 88.00%
+epoch = 104, mse = 0.101, Percentage = 66/75 = 88.00%
+epoch = 105, mse = 0.100, Percentage = 66/75 = 88.00%
+epoch = 106, mse = 0.099, Percentage = 66/75 = 88.00%
+epoch = 107, mse = 0.098, Percentage = 66/75 = 88.00%
+epoch = 108, mse = 0.098, Percentage = 67/75 = 89.33%
+epoch = 109, mse = 0.097, Percentage = 67/75 = 89.33%
+epoch = 110, mse = 0.096, Percentage = 67/75 = 89.33%
+epoch = 111, mse = 0.096, Percentage = 67/75 = 89.33%
+epoch = 112, mse = 0.095, Percentage = 67/75 = 89.33%
+epoch = 113, mse = 0.094, Percentage = 67/75 = 89.33%
+epoch = 114, mse = 0.093, Percentage = 67/75 = 89.33%
+epoch = 115, mse = 0.093, Percentage = 67/75 = 89.33%
+epoch = 116, mse = 0.092, Percentage = 67/75 = 89.33%
+epoch = 117, mse = 0.091, Percentage = 67/75 = 89.33%
+epoch = 118, mse = 0.090, Percentage = 67/75 = 89.33%
+epoch = 119, mse = 0.090, Percentage = 67/75 = 89.33%
+epoch = 120, mse = 0.089, Percentage = 67/75 = 89.33%
+epoch = 121, mse = 0.088, Percentage = 67/75 = 89.33%
+epoch = 122, mse = 0.087, Percentage = 67/75 = 89.33%
+epoch = 123, mse = 0.086, Percentage = 67/75 = 89.33%
+epoch = 124, mse = 0.086, Percentage = 67/75 = 89.33%
+epoch = 125, mse = 0.085, Percentage = 67/75 = 89.33%
+epoch = 126, mse = 0.084, Percentage = 68/75 = 90.67%
+epoch = 127, mse = 0.083, Percentage = 68/75 = 90.67%
+epoch = 128, mse = 0.082, Percentage = 68/75 = 90.67%
+epoch = 129, mse = 0.081, Percentage = 68/75 = 90.67%
+epoch = 130, mse = 0.081, Percentage = 69/75 = 92.00%
+epoch = 131, mse = 0.080, Percentage = 69/75 = 92.00%
+epoch = 132, mse = 0.079, Percentage = 69/75 = 92.00%
+epoch = 133, mse = 0.078, Percentage = 70/75 = 93.33%
+epoch = 134, mse = 0.077, Percentage = 70/75 = 93.33%
+epoch = 135, mse = 0.076, Percentage = 71/75 = 94.67%
+epoch = 136, mse = 0.076, Percentage = 72/75 = 96.00%
+epoch = 137, mse = 0.075, Percentage = 72/75 = 96.00%
+epoch = 138, mse = 0.074, Percentage = 72/75 = 96.00%
+epoch = 139, mse = 0.073, Percentage = 72/75 = 96.00%
+epoch = 140, mse = 0.072, Percentage = 72/75 = 96.00%
+epoch = 141, mse = 0.072, Percentage = 72/75 = 96.00%
+epoch = 142, mse = 0.071, Percentage = 72/75 = 96.00%
+epoch = 143, mse = 0.070, Percentage = 73/75 = 97.33%
+epoch = 144, mse = 0.069, Percentage = 73/75 = 97.33%
+epoch = 145, mse = 0.068, Percentage = 74/75 = 98.67%
+epoch = 146, mse = 0.068, Percentage = 74/75 = 98.67%
+epoch = 147, mse = 0.067, Percentage = 75/75 = 100.00%
+epoch = 148, mse = 0.066, Percentage = 75/75 = 100.00%
+epoch = 149, mse = 0.065, Percentage = 75/75 = 100.00%
+epoch = 150, mse = 0.064, Percentage = 75/75 = 100.00%
+epoch = 151, mse = 0.064, Percentage = 75/75 = 100.00%
+epoch = 152, mse = 0.063, Percentage = 75/75 = 100.00%
+epoch = 153, mse = 0.062, Percentage = 75/75 = 100.00%
+epoch = 154, mse = 0.061, Percentage = 75/75 = 100.00%
+epoch = 155, mse = 0.061, Percentage = 75/75 = 100.00%
+epoch = 156, mse = 0.060, Percentage = 75/75 = 100.00%
+epoch = 157, mse = 0.059, Percentage = 75/75 = 100.00%
+epoch = 158, mse = 0.058, Percentage = 75/75 = 100.00%
+epoch = 159, mse = 0.058, Percentage = 75/75 = 100.00%
+epoch = 160, mse = 0.057, Percentage = 75/75 = 100.00%
+epoch = 161, mse = 0.056, Percentage = 75/75 = 100.00%
+epoch = 162, mse = 0.056, Percentage = 75/75 = 100.00%
+epoch = 163, mse = 0.055, Percentage = 75/75 = 100.00%
+epoch = 164, mse = 0.054, Percentage = 75/75 = 100.00%
+epoch = 165, mse = 0.054, Percentage = 75/75 = 100.00%
+epoch = 166, mse = 0.053, Percentage = 75/75 = 100.00%
+epoch = 167, mse = 0.052, Percentage = 75/75 = 100.00%
+epoch = 168, mse = 0.052, Percentage = 75/75 = 100.00%
+epoch = 169, mse = 0.051, Percentage = 75/75 = 100.00%
+epoch = 170, mse = 0.051, Percentage = 75/75 = 100.00%
+epoch = 171, mse = 0.050, Percentage = 75/75 = 100.00%
+epoch = 172, mse = 0.049, Percentage = 75/75 = 100.00%
+epoch = 173, mse = 0.049, Percentage = 75/75 = 100.00%
+epoch = 174, mse = 0.048, Percentage = 75/75 = 100.00%
+epoch = 175, mse = 0.048, Percentage = 75/75 = 100.00%
+epoch = 176, mse = 0.047, Percentage = 75/75 = 100.00%
+epoch = 177, mse = 0.046, Percentage = 75/75 = 100.00%
+epoch = 178, mse = 0.046, Percentage = 75/75 = 100.00%
+epoch = 179, mse = 0.045, Percentage = 75/75 = 100.00%
+epoch = 180, mse = 0.045, Percentage = 75/75 = 100.00%
+epoch = 181, mse = 0.044, Percentage = 75/75 = 100.00%
+epoch = 182, mse = 0.044, Percentage = 75/75 = 100.00%
+epoch = 183, mse = 0.043, Percentage = 75/75 = 100.00%
+epoch = 184, mse = 0.043, Percentage = 75/75 = 100.00%
+epoch = 185, mse = 0.042, Percentage = 75/75 = 100.00%
+epoch = 186, mse = 0.042, Percentage = 75/75 = 100.00%
+epoch = 187, mse = 0.041, Percentage = 75/75 = 100.00%
+epoch = 188, mse = 0.041, Percentage = 75/75 = 100.00%
+epoch = 189, mse = 0.040, Percentage = 75/75 = 100.00%
+epoch = 190, mse = 0.040, Percentage = 75/75 = 100.00%
+ending
+
+Backprop Neural Network Analyser
+ Version 4.0
+ (C) 1998 Mengjie Zhang, RMIT 
+ mengjie@cs.rmit.edu.au
+LR = 0.050000, M = 0.000000, CE = 0.040000, R = 0.500000 PERCENT = 101.000000
+Trying to allocate 1064 bytes during network creation... Successfull
+Performance of network on training data:
+
+Pat #	Error	Activations
+0	0.004	0.93 0.09 0.01 
+1	0.006	0.92 0.10 0.01 
+2	0.005	0.93 0.10 0.01 
+3	0.006	0.92 0.11 0.01 
+4	0.004	0.93 0.09 0.01 
+5	0.005	0.93 0.10 0.01 
+6	0.005	0.93 0.10 0.01 
+7	0.005	0.93 0.10 0.01 
+8	0.006	0.92 0.11 0.01 
+9	0.006	0.92 0.10 0.01 
+10	0.004	0.93 0.09 0.01 
+11	0.006	0.92 0.10 0.01 
+12	0.005	0.93 0.10 0.01 
+13	0.004	0.93 0.09 0.01 
+14	0.004	0.94 0.09 0.01 
+15	0.004	0.94 0.09 0.01 
+16	0.004	0.94 0.09 0.01 
+17	0.005	0.93 0.09 0.01 
+18	0.005	0.93 0.10 0.01 
+19	0.004	0.93 0.09 0.01 
+20	0.006	0.92 0.10 0.01 
+21	0.005	0.93 0.10 0.01 
+22	0.004	0.94 0.09 0.01 
+23	0.008	0.90 0.12 0.02 
+24	0.009	0.90 0.12 0.02 
+25	0.063	0.07 0.66 0.25 
+26	0.090	0.06 0.60 0.32 
+27	0.129	0.05 0.54 0.41 
+28	0.162	0.05 0.49 0.47 
+29	0.147	0.05 0.51 0.44 
+30	0.214	0.04 0.43 0.56 ERROR
+31	0.159	0.05 0.49 0.47 
+32	0.053	0.08 0.67 0.21 
+33	0.089	0.06 0.60 0.32 
+34	0.145	0.05 0.51 0.44 
+35	0.090	0.06 0.60 0.32 
+36	0.104	0.06 0.57 0.35 
+37	0.068	0.07 0.64 0.27 
+38	0.214	0.04 0.43 0.56 ERROR
+39	0.046	0.08 0.69 0.19 
+40	0.055	0.07 0.67 0.23 
+41	0.246	0.04 0.39 0.61 ERROR
+42	0.065	0.07 0.65 0.26 
+43	0.263	0.04 0.38 0.63 ERROR
+44	0.074	0.07 0.63 0.28 
+45	0.318	0.04 0.33 0.71 ERROR
+46	0.055	0.07 0.67 0.23 
+47	0.321	0.04 0.32 0.71 ERROR
+48	0.184	0.05 0.46 0.51 ERROR
+49	0.063	0.07 0.65 0.25 
+50	0.030	0.03 0.24 0.82 
+51	0.034	0.03 0.25 0.80 
+52	0.033	0.03 0.25 0.81 
+53	0.033	0.03 0.25 0.81 
+54	0.031	0.03 0.24 0.82 
+55	0.030	0.03 0.24 0.82 
+56	0.037	0.03 0.26 0.79 
+57	0.032	0.03 0.24 0.81 
+58	0.032	0.03 0.24 0.81 
+59	0.032	0.03 0.24 0.81 
+60	0.055	0.03 0.30 0.74 
+61	0.036	0.03 0.26 0.80 
+62	0.037	0.03 0.26 0.79 
+63	0.033	0.03 0.25 0.81 
+64	0.031	0.03 0.24 0.81 
+65	0.036	0.03 0.25 0.80 
+66	0.038	0.03 0.26 0.79 
+67	0.032	0.03 0.24 0.81 
+68	0.029	0.03 0.23 0.82 
+69	0.039	0.03 0.26 0.79 
+70	0.034	0.03 0.25 0.80 
+71	0.035	0.03 0.25 0.80 
+72	0.030	0.03 0.24 0.82 
+73	0.054	0.03 0.30 0.74 
+74	0.035	0.03 0.25 0.80 
+
+Mean squared error for training data: 0.059
+Number of incorrect classifications: 7/75
+
+Performance of network on test data:
+Pat #	Error	Activations
+75	0.007	0.91	0.11	0.01	
+Desired:	1.00	0.00	0.00	
+
+76	0.006	0.92	0.11	0.01	
+Desired:	1.00	0.00	0.00	
+
+77	0.005	0.93	0.10	0.01	
+Desired:	1.00	0.00	0.00	
+
+78	0.005	0.93	0.09	0.01	
+Desired:	1.00	0.00	0.00	
+
+79	0.006	0.92	0.11	0.01	
+Desired:	1.00	0.00	0.00	
+
+80	0.007	0.91	0.11	0.01	
+Desired:	1.00	0.00	0.00	
+
+81	0.005	0.93	0.10	0.01	
+Desired:	1.00	0.00	0.00	
+
+82	0.004	0.94	0.09	0.01	
+Desired:	1.00	0.00	0.00	
+
+83	0.004	0.94	0.09	0.01	
+Desired:	1.00	0.00	0.00	
+
+84	0.006	0.92	0.10	0.01	
+Desired:	1.00	0.00	0.00	
+
+85	0.004	0.93	0.09	0.01	
+Desired:	1.00	0.00	0.00	
+
+86	0.004	0.94	0.09	0.01	
+Desired:	1.00	0.00	0.00	
+
+87	0.006	0.92	0.10	0.01	
+Desired:	1.00	0.00	0.00	
+
+88	0.005	0.93	0.10	0.01	
+Desired:	1.00	0.00	0.00	
+
+89	0.005	0.93	0.10	0.01	
+Desired:	1.00	0.00	0.00	
+
+90	0.004	0.93	0.09	0.01	
+Desired:	1.00	0.00	0.00	
+
+91	0.010	0.89	0.13	0.02	
+Desired:	1.00	0.00	0.00	
+
+92	0.005	0.93	0.10	0.01	
+Desired:	1.00	0.00	0.00	
+
+93	0.006	0.92	0.11	0.01	
+Desired:	1.00	0.00	0.00	
+
+94	0.007	0.92	0.11	0.01	
+Desired:	1.00	0.00	0.00	
+
+95	0.006	0.92	0.11	0.01	
+Desired:	1.00	0.00	0.00	
+
+96	0.005	0.93	0.09	0.01	
+Desired:	1.00	0.00	0.00	
+
+97	0.005	0.93	0.10	0.01	
+Desired:	1.00	0.00	0.00	
+
+98	0.004	0.93	0.09	0.01	
+Desired:	1.00	0.00	0.00	
+
+99	0.005	0.93	0.10	0.01	
+Desired:	1.00	0.00	0.00	
+
+100	0.064	0.07	0.65	0.26	
+Desired:	0.00	1.00	0.00	
+
+101	0.137	0.05	0.52	0.43	
+Desired:	0.00	1.00	0.00	
+
+102	0.257	0.04	0.38	0.63	
+Desired:	0.00	1.00	0.00	ERROR
+
+103	0.187	0.05	0.46	0.52	
+Desired:	0.00	1.00	0.00	ERROR
+
+104	0.039	0.09	0.71	0.17	
+Desired:	0.00	1.00	0.00	
+
+105	0.075	0.07	0.63	0.28	
+Desired:	0.00	1.00	0.00	
+
+106	0.057	0.07	0.67	0.23	
+Desired:	0.00	1.00	0.00	
+
+107	0.059	0.07	0.66	0.24	
+Desired:	0.00	1.00	0.00	
+
+108	0.379	0.03	0.27	0.78	
+Desired:	0.00	1.00	0.00	ERROR
+
+109	0.282	0.04	0.36	0.66	
+Desired:	0.00	1.00	0.00	ERROR
+
+110	0.134	0.05	0.53	0.42	
+Desired:	0.00	1.00	0.00	
+
+111	0.107	0.06	0.57	0.36	
+Desired:	0.00	1.00	0.00	
+
+112	0.150	0.05	0.51	0.45	
+Desired:	0.00	1.00	0.00	
+
+113	0.090	0.06	0.60	0.32	
+Desired:	0.00	1.00	0.00	
+
+114	0.134	0.05	0.53	0.42	
+Desired:	0.00	1.00	0.00	
+
+115	0.226	0.04	0.42	0.58	
+Desired:	0.00	1.00	0.00	ERROR
+
+116	0.164	0.05	0.49	0.48	
+Desired:	0.00	1.00	0.00	
+
+117	0.076	0.07	0.62	0.29	
+Desired:	0.00	1.00	0.00	
+
+118	0.052	0.08	0.67	0.21	
+Desired:	0.00	1.00	0.00	
+
+119	0.148	0.05	0.51	0.45	
+Desired:	0.00	1.00	0.00	
+
+120	0.086	0.06	0.60	0.31	
+Desired:	0.00	1.00	0.00	
+
+121	0.109	0.06	0.56	0.36	
+Desired:	0.00	1.00	0.00	
+
+122	0.076	0.06	0.62	0.29	
+Desired:	0.00	1.00	0.00	
+
+123	0.042	0.10	0.70	0.16	
+Desired:	0.00	1.00	0.00	
+
+124	0.097	0.06	0.58	0.34	
+Desired:	0.00	1.00	0.00	
+
+125	0.037	0.03	0.26	0.79	
+Desired:	0.00	0.00	1.00	
+
+126	0.062	0.04	0.32	0.71	
+Desired:	0.00	0.00	1.00	
+
+127	0.056	0.03	0.31	0.73	
+Desired:	0.00	0.00	1.00	
+
+128	0.031	0.03	0.24	0.81	
+Desired:	0.00	0.00	1.00	
+
+129	0.046	0.03	0.28	0.76	
+Desired:	0.00	0.00	1.00	
+
+130	0.033	0.03	0.25	0.81	
+Desired:	0.00	0.00	1.00	
+
+131	0.041	0.03	0.27	0.78	
+Desired:	0.00	0.00	1.00	
+
+132	0.031	0.03	0.24	0.81	
+Desired:	0.00	0.00	1.00	
+
+133	0.058	0.03	0.31	0.73	
+Desired:	0.00	0.00	1.00	
+
+134	0.033	0.03	0.25	0.81	
+Desired:	0.00	0.00	1.00	
+
+135	0.033	0.03	0.25	0.81	
+Desired:	0.00	0.00	1.00	
+
+136	0.032	0.03	0.24	0.81	
+Desired:	0.00	0.00	1.00	
+
+137	0.038	0.03	0.26	0.79	
+Desired:	0.00	0.00	1.00	
+
+138	0.060	0.04	0.32	0.72	
+Desired:	0.00	0.00	1.00	
+
+139	0.043	0.03	0.28	0.77	
+Desired:	0.00	0.00	1.00	
+
+140	0.032	0.03	0.24	0.81	
+Desired:	0.00	0.00	1.00	
+
+141	0.052	0.03	0.30	0.74	
+Desired:	0.00	0.00	1.00	
+
+142	0.034	0.03	0.25	0.80	
+Desired:	0.00	0.00	1.00	
+
+143	0.031	0.03	0.24	0.81	
+Desired:	0.00	0.00	1.00	
+
+144	0.032	0.03	0.24	0.81	
+Desired:	0.00	0.00	1.00	
+
+145	0.040	0.03	0.27	0.78	
+Desired:	0.00	0.00	1.00	
+
+146	0.040	0.03	0.27	0.78	
+Desired:	0.00	0.00	1.00	
+
+147	0.043	0.03	0.28	0.77	
+Desired:	0.00	0.00	1.00	
+
+148	0.034	0.03	0.25	0.80	
+Desired:	0.00	0.00	1.00	
+
+149	0.040	0.03	0.27	0.78	
+Desired:	0.00	0.00	1.00	
+
+
+Mean squared error for test data: 0.058
+Number of incorrect classifications: 5/75
+
+ending
+
