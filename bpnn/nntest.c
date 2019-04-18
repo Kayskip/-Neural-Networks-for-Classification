@@ -15,10 +15,10 @@ char *argv [];
 {
     fprintf(stderr, "Backprop Neural Network Analyser\n Version 4.0\n (C) 1998 Mengjie Zhang, RMIT \n mengjie@cs.rmit.edu.au\n");
 
-    epsilon = 0.3;
+    epsilon = 0.2;
     momentum = 0.0;
-    range = 0.3;
-    ecrit = 0.03;
+    range = 0.1;
+    ecrit = 0.01;
 
     fanin = FALSE;
     verbose = 1;

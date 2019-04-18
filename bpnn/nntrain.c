@@ -52,7 +52,7 @@ char **argv;
 
     printf("Backprop Neural Network Simulator\n Version 5.0\n (C) 2000 Mengjie Zhang, VUW\n mengjie@mcs.vuw.ac.nz\n");
 
-    epsilon = 0.7;        /* default values for parameters */
+    epsilon = 0.2;        /* default values for parameters */
     momentum = 0.0;
     range = 0.1;
     ecrit = 0.03;
