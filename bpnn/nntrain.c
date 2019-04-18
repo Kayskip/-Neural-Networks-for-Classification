@@ -48,7 +48,7 @@ char **argv;
     int    i, j;
     int errcount = 0;
     double correct_percentage = 0.0;
-    double mse = 101.0;
+    double mse = 100;
 
     printf("Backprop Neural Network Simulator\n Version 5.0\n (C) 2000 Mengjie Zhang, VUW\n mengjie@mcs.vuw.ac.nz\n");
 
