@@ -18,7 +18,7 @@ char *argv [];
     epsilon = 0.2;
     momentum = 0.0;
     range = 0.1;
-    ecrit = 0.01;
+    ecrit = 0.04;
 
     fanin = FALSE;
     verbose = 1;
